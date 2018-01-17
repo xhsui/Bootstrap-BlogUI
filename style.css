@@ -1,0 +1,257 @@
+* {
+    /*font: 14px "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;*/
+}
+
+.blog-masthead {
+    margin-bottom: 60px;
+}
+
+.blog-masthead nav {
+    line-height: 30px;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 541838 */
+    src: url('//at.alicdn.com/t/font_541838_mn44pxsmnkxrbe29.eot');
+    src: url('//at.alicdn.com/t/font_541838_mn44pxsmnkxrbe29.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_541838_mn44pxsmnkxrbe29.woff') format('woff'),
+    url('//at.alicdn.com/t/font_541838_mn44pxsmnkxrbe29.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_541838_mn44pxsmnkxrbe29.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.blog-masthead {
+    border-bottom: 1px solid #2B3A42;
+}
+.blog-masthead nav {
+    border-bottom: 1px solid #f2f3f3;
+}
+
+.blog-header {
+    margin-top: 1.25rem;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border-bottom: .05rem solid #eee;
+}
+
+.blog-aside {
+    background-color: #fff;
+    padding:1.25rem;
+    color:#9d9a9a;
+}
+
+.blog-aside .about-me {
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.blog-aside .about-me img {
+    border-radius: 4rem;
+    padding:0.25rem;
+    border:0.1rem solid #f7f7f7;
+}
+
+.blog-aside .site_info {
+    margin: 10px 0 30px;
+}
+
+.blog-aside .site_info span {
+    font-size: 14px;
+    text-align: center;
+    border-right: 1px solid #e8e8e8;
+}
+
+.blog-aside .site_info span:last-child {
+    border-right: none;
+}
+
+.blog-aside .site_info span em {
+    display: block;
+}
+
+.blog-aside .site_info span i {
+    
+}
+
+.blog-post-title{
+    color: #495057;
+    font-weight: bold;
+}
+.blog-post {
+    color:#818182
+}
+.blog-pagination {
+    margin-top:0.5rem;
+}
+
+
+.blog-toc {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-toc-empty {
+    font-size: 14px;
+    color: #666;
+}
+
+.blog-toc ol {
+    overflow: auto;
+    margin: 0;
+    padding: 0 10px 10px;
+    list-style: none;
+    text-align: left;
+}
+
+.blog-toc ol a {
+    color: #555;
+}
+
+.blog-toc ol a:hover {
+    color: #222;
+}
+
+.blog-toc ol li {
+    width: 100%;
+}
+
+.blog-toc .nav .nav-child {
+    display: none;
+}
+
+.blog-toc .nav .active > .nav-child {
+    display: block;
+}
+
+.blog-toc .nav .active-current > .nav-child {
+    display: block;
+}
+
+.blog-toc .nav .active-current > .nav-child > .nav-item {
+    display: block;
+}
+
+.blog-toc .nav .active > a {
+    color: #ccc;
+}
+
+.blog-toc .nav .active-current > a {
+    color: #222;
+}
+
+.blog-toc .nav .active-current > a:hover {
+    color: #222;
+}
+
+.blog-toc-indicator {
+    font-size: 14px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.blog-toc-indicator-top {
+    margin-top: 10px;
+    opacity: 0;
+}
+
+.blog-toc-indicator-bottom {
+    position: absolute;
+    width: 100%;
+}
+
+.blog-footer {
+    padding: 2rem 0;
+    color: #999;
+    text-align: center;
+    border-top: .05rem solid #f2f3f3;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+    .blog-aside {
+        width: 150px;
+        padding: 0;
+    }
+
+    .blog-masthead {
+        margin-bottom: 80px;
+    }
+
+    .blog-masthead nav {
+        line-height: 35px;
+    }
+
+    .blog-aside .about-me img {
+        width: 6rem
+    }
+}
+
+@media (min-width: 768px) {
+    .blog-aside {
+        width: 240px;
+        padding-right: 20px;
+    }
+
+    .blog-masthead {
+        margin-bottom: 90px;
+    }
+
+    .blog-masthead nav {
+        line-height: 40px;
+    }
+
+    .blog-aside .about-me img {
+        width: 6.5rem
+    }
+}
+
+@media (min-width: 992px) {
+    .blog-aside {
+        width: 320px;
+        padding-right: 30px;
+    }
+
+    .blog-masthead {
+        margin-bottom: 110px;
+    }
+
+    .blog-masthead nav {
+        line-height: 50px;
+    }
+
+    .blog-aside .about-me img {
+        width: 7rem
+    }
+}
+
+@media (min-width: 1200px) {
+    .blog-aside {
+        width: 300px;
+        padding-right: 40px;
+    }
+
+    .blog-masthead {
+        margin-bottom: 130px;
+    }
+
+    .blog-masthead nav {
+        line-height: 60px;
+    }
+
+    .blog-aside .about-me img {
+        width: 8rem
+    }
+}
